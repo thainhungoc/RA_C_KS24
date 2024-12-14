@@ -1,5 +1,3 @@
-/*Viết chương trình C để nhập vào 1 số nguyên dương n.
-Hãy tìm và in ra n số nguyên tố đầu tiên .*/
 #include <stdio.h>
 #include <math.h>
 int main()
