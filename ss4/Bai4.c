@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int thang;
+  int month;
       printf("Nhap tháng mà ban muon kiem tra(1-12): ");
-  scanf("%d", &thang);
+  scanf("%d", &month);
 
-        switch(thang) {
+        switch(month) {
     case 1:
     case 3:
     case 5:
@@ -13,7 +13,7 @@ int main() {
     case 8:
     case 10:
     case 12:
-        printf("Thang %d co 31 ngay.\n", thang);
+        printf("Thang %d co 31 ngay.\n", month);
     break;
 
       case 2:
@@ -24,11 +24,11 @@ int main() {
     case 6:
     case 9:
     case 11:
-        printf("Thang %d co 30 ngay.\n", thang);
+        printf("Thang %d co 30 ngay.\n", month);
     break;
 
    default:
-      printf("So thang %d khong hop le. Vui long nhap so thang tu 1-12.\n", thang);
+      printf("So thang %d khong hop le. Vui long nhap so thang tu 1-12.\n", month);
   }
 
   return 0;
