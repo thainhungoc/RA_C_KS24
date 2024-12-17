@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-  int number;
+  int n;
   printf("Nhap vao 1 so: \n");
-  scanf("%d", &number);
-  if(number >= 0 ){
-    printf("So %d la so nguyen duong", number);
+  scanf("%d", &n);
+  if(n >= 0 ){
+    printf("So %d la so nguyen duong", n);
   }else{
-    printf("So %d la so nguyen am", number);
+    printf("So %d la so nguyen am", n);
   }
 }

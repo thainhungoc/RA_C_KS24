@@ -1,32 +1,32 @@
 #include <stdio.h>
 
 int main() {
-    int so1, so2, so3;
+    int n1, n2, n3;
     printf("Nhập số thứ nhất: ");
-    scanf("%d", &so1);
+    scanf("%d", &n1);
     printf("Nhập số thứ hai: ");
-    scanf("%d", &so2);
+    scanf("%d", &n2);
     printf("Nhập số thứ ba: ");
-    scanf("%d", &so3);
+    scanf("%d", &n3);
 
-    if (so1 > so2) {
-        int temp = so1;
-        so1 = so2;
-        so2 = temp;
+    if (n1 > n2) {
+        int temp = n1;
+        n1 = n2;
+        n2 = temp;
     }
 
-    if (so1 > so3) {
-        int temp = so1;
-        so1 = so3;
-        so3 = temp;
+    if (n1 > n3) {
+        int temp = n1;
+        n1 = n3;
+        n3 = temp;
     }
 
-    if (so2 > so3) {
-        int temp = so2;
-        so2 = so3;
-        so3 = temp;
+    if (n2 > n3) {
+        int temp = n2;
+        n2 = n3;
+        n3 = temp;
     }
-    printf("Các số theo thứ tự từ nhỏ đến lớn: %d %d %d\n", so1, so2, so3);
+    printf("Các số theo thứ tự từ nhỏ đến lớn: %d %d %d\n", n1, n2, n3);
 
     return 0;
 }

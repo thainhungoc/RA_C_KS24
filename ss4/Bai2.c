@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    int number;
+    int n;
     printf("Nhap vao 1 so: \n");
-    scanf("%d", &number);
-    if(number % 2 == 0 ){
-        printf("So %d la so chan", number);
+    scanf("%d", &n);
+    if(n % 2 == 0 ){
+        printf("So %d la so chan", n);
     }else{
-        printf("So %d la so le", number);
+        printf("So %d la so le", n);
     }
 }

@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, c;
+    int n1, n2, n3;
     printf("Nhap so thu nhat: ");
-    scanf("%d", &a);
+    scanf("%d", &n1);
     
     printf("Nhap so thu hai: ");
-    scanf("%d", &b);
+    scanf("%d", &n2);
     
     printf("Nhap so thu ba: ");
-    scanf("%d", &c);
+    scanf("%d", &n3);
     
-    if ((c >= a && c <= b) || (c >= b && c <= a)) {
-        printf("So %d nam trong khoang giua %d va %d\n", c, a, b);
+    if ((n3 >= n1 && n3 <= n2) || (n3 >= n2 && n3 <= n1)) {
+        printf("So %d nam trong khoang giua %d va %d\n", n3, n1, n2);
     } else {
-        printf("So %d Khong nam trong khoang giua %d va %d\n", c, a, b);
+        printf("So %d Khong nam trong khoang giua %d va %d\n", n3, n1, n2);
     }
     
     return 0;
