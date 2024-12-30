@@ -12,6 +12,7 @@ void taoMaTran(int maTran[][MAX], int hang, int cot) {
     }
 }
 
+
 void hienThiMaTran(int maTran[][MAX], int hang, int cot) {
     printf("\nMa tran da nhap:\n");
     for(int i = 0; i < hang; i++) {
