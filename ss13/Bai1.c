@@ -10,6 +10,7 @@ void taoMaTran(int maTran[][MAX], int hang, int cot) {
             scanf("%d", &maTran[i][j]);
         }
     }
+
 }
 
 
