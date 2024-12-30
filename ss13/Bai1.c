@@ -2,6 +2,7 @@
 
 #define MAX 100
 
+
 void taoMaTran(int maTran[][MAX], int hang, int cot) {
     printf("Nhap gia tri cho ma tran:\n");
     for(int i = 0; i < hang; i++) {

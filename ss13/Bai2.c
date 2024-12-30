@@ -8,6 +8,7 @@ int timUCLN(int a, int b) {
         b = a % b;
         a = temp;
     }
+
     return a;
 }
 

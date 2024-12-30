@@ -12,7 +12,6 @@ void nhapMaTran(int a[][MAX], int n, int m) {
     }
 }
 
-
 void hienThiMaTran(int a[][MAX], int n, int m) {
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < m; j++) {
